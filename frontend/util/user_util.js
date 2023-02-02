@@ -1,0 +1,1 @@
+export const patchUser = (user) =>$.ajax({method: 'patch', url: `/api/users`, data: {user}})

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Infected Mail</title>
+    <link rel="icon" href="https://uploads1.yugioh.com/card_images/1279/detail/691.jpg?1385099405">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <script type="text/javascript">
+      window.gcLogo = "<%= image_url('gamers_choice_logo.webp') %>"
+      window.logo = "<%= image_url('logo.jpg') %>"
+    </script>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>

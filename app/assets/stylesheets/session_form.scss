@@ -1,0 +1,52 @@
+@import 'variables';
+
+.gamers-choice-logo {
+  width: 40vw;
+  height: 6vw;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 20%;
+}
+
+#session-form{
+  display: flex;
+  justify-content: center;
+
+  #login-modal{
+    margin: auto auto;
+    background: black;
+    padding: 100px;
+    margin: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input {
+      margin: 5px;
+      padding: 10px;
+      width: 10vw;
+      height: .7vw;
+    }
+
+    .btn {
+      background-color: $button-blue;
+      text-align: center;
+      padding: 10px;
+      margin: 5px;
+      width: 8vw;
+      height: 1vw;
+      border-radius: 5px;
+      &:hover {
+        background-color: $hover-btn-blue;
+        cursor: pointer;
+      }
+    }
+  }
+}

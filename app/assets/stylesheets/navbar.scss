@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+.nav-bar {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: right;
+    margin: 1vw;
+    top: 5px;
+    border-radius: 10px;
+  
+    .nav-btn {
+      background-color: $button-blue;
+      padding: .6vw 1vw;
+      margin: .5vw 1.4vw;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+  
+      &:hover{
+        background-color: $hover-btn-blue;
+        cursor: pointer;
+      }
+    }
+  }

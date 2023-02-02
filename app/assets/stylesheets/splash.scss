@@ -1,0 +1,27 @@
+@import 'variables';
+
+#splash {
+
+ 
+
+  #splash-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+    .gamer-choice-logo {
+      width: 40vw;
+      margin: 0 auto;
+    }
+  
+    #by {
+      margin: 0 auto;
+    }
+  
+    .infected-mail-icon {
+      width: 10vw;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+json.partial! 'api/replacements/replacement', replacement: @replacement
